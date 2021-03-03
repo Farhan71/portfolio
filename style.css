@@ -1,0 +1,39 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+
+}
+h1 {
+    size: 50 px;
+}
+.name-light {
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 4%;
+
+}
+.half-width img {
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section {
+    height: 500 px;
+    display: inline-block;  
+    margin-bottom: 200 px;
+}
+.anchor-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    /* background-image: linear-gradient (lightsalmon, tomato); */
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+    font-weight: 900;
+}
